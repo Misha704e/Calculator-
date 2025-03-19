@@ -1,19 +1,19 @@
 while True:
-        num1 = int(input("Введіть перше число: "))
+        n1 = int(input("Введіть перше число: "))
         operator = input("Введіть оператор (+, -, *, /): ")
-        num2 = int(input("Введіть друге число: "))
+        n2 = int(input("Введіть друге число: "))
         if operator == "+":
-            result = num1 + num2
+            result = n1 + n2
             print(result)
         elif operator == "-":
-            result = num1 - num2
+            result = n1 - n2
             print(result)
         elif operator == "*":
-            result = num1 * num2
+            result = n1 * n2
             print(result)
         elif operator == "/":
             if num2 != 0:
-                result = num1 / num2
+                result = n1 / n2
                 print(result)
             else:
                 print("Ділення на нуль неможливе!")
